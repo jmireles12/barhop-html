@@ -114,3 +114,10 @@
   .dream-stat {
     color: blue;
   }
+
+  @media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
